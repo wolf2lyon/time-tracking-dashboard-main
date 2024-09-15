@@ -12,7 +12,7 @@ export const Card = ({ title, current, previous }) => {
     <div class="relative w-full h-4/5 bg-primary_${
       titleLowerCase === "self care" ? "selfCare" : titleLowerCase
     }">
-        <img src="../images/icon-${
+        <img src="./images/icon-${
           titleLowerCase === "self care" ? "self-care" : titleLowerCase
         }.svg" alt="icon-work" class="absolute z-0 right-[15px] top-[-10px]">
       </div>
@@ -20,7 +20,7 @@ export const Card = ({ title, current, previous }) => {
         <p class="row-start-2 col-start-2 font-semibold xl:self-center xl:pb-3  whitespace-nowrap">${title}</p>
         <p class="row-start-3 row-end-5 col-start-2 text-[32px] xl:col-end-9 xl:text-[56px] xl:self-center">${current}hrs</p>
         <div class="row-start-2 col-start-7 col-end-12 justify-self-end self-center xl:self-center xl:pb-3">
-          <img src="../images/icon-ellipsis.svg" alt="icon-ellipsis">
+          <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis">
         </div>
         <p class="row-start-3 row-end-5 col-start-7 col-end-12 self-center justify-self-end text-neutral_paleBlue whitespace-nowrap xl:row-start-5 xl:row-end-6 xl:col-start-2 xl:col-end-9 xl:justify-self-start xl:self-end">Last Week - ${previous}hrs</p>
       </div>

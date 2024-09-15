@@ -3,7 +3,7 @@ export const FirstCard = () => {
       <div class="flex gap-5 w-full justify-center items-center h-[133px] bg-primary rounded-2xl xl:flex-col xl:min-h-[354px]">
         <div class="flex gap-5 xl:flex-col xl:w-4/5 xl:h-4/5">
           <div class="xl:mb-5">
-            <img src="../images/image-jeremy.png" alt="image-jeremy" class="w-16 rounded-full border-4 border-white xl:w-20">
+            <img src="./images/image-jeremy.png" alt="image-jeremy" class="w-16 rounded-full border-4 border-white xl:w-20">
           </div>
           <div>
             <h1 class="text-neutral_paleBlue">
